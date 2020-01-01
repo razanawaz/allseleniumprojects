@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="SchooliPackage.NewTest">
+        <methods>
+          <include name="view_Exam_and_subject"/>
+          <include name="submit_result"/>
+          <include name="select_class"/>
+          <include name="select_section"/>
+          <include name="enter_marks"/>
+          <include name="login"/>
+          <include name="exams_tab"/>
+          <include name="setupTest"/>
+        </methods>
+      </class> <!-- SchooliPackage.NewTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

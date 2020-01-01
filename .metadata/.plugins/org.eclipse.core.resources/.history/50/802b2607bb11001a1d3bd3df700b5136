@@ -1,0 +1,17 @@
+package Project_methods;
+import Project_methods.All;
+
+
+public class main_class {
+	public static void main(String[] args) throws InterruptedException {
+		
+		All.setupTest();
+		All.login();
+		All.select_class();
+		All.select_section();
+		All.exams_tab();
+		All.view_Exam_and_subject();
+		All.view_Exam_and_subject();
+	}
+
+}

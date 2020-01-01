@@ -1,0 +1,9 @@
+package Thirdparty;
+
+import org.testng.annotations.Test;
+
+public class BuyPolicy {
+  @Test
+  public void f() {
+  }
+}

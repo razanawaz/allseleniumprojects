@@ -1,0 +1,37 @@
+package Sales;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Action;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Sales {
+	public static void main(String[] args) {
+    	System.setProperty("webdriver.chrome.driver","C:\\chromedriver.exe");
+    	WebDriver driver = new ChromeDriver();
+    	driver.manage().window().maximize(); 
+    	String baseUrl = "http://dev.almumayaz.com/login";
+    	driver.get(baseUrl);
+    	WebElement username=driver.findElement(By.id("username"));
+    	WebElement password=driver.findElement(By.id("password"));
+    	WebElement login= driver.findElement(By.xpath("//*[@id=\"loginForm\"]/input"));
+    	username.sendKeys("admin");
+    	password.sendKeys("123456");
+    	login.click();
+    	WebElement salestab= driver.findElement(By.xpath("//*[@id=\"cssmenu\"]/ul/li[5]/a[1]"));
+    //	WebElement allsales=  driver.findElement(By.linkText("All Sales"));
+    	Actions builder = new Actions(driver);
+    	builder.moveToElement(salestab).moveToElement(driver.findElement(By.xpath("//*[@id=\"cssmenu\"]/ul/li[5]/ul/li[1]/a"))).click().build().perform();
+    	//mouseoverSalestab.perform();
+    	WebElement addnewsale=driver.findElement(By.xpath("/html/body/div[3]/div/div[2]/div[2]/div[2]/a"));
+    	addnewsale.click();
+    	WebElement comprehensivetest= driver.findElement(By.xpath("//*[@id=\"1_service_parent\"]/div/p/a[2]"));
+    	comprehensivetest.click();
+    	
+    	//driver.close();
+      //  System.exit(0);
+    	
+    	
+	}
+}

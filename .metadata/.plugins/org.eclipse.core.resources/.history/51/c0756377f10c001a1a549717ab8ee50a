@@ -1,0 +1,18 @@
+package Add_sale;
+import Add_sale.Sale;
+
+public class main_class {
+	public static void main(String[] args) throws InterruptedException {
+		Sale.setupTest();
+		Sale.login();
+		Sale.leftmenu();
+		Sale.SwitchToComSales();
+		Sale.Start_New_Test();
+		Sale.Add_vehicle_information();
+		Sale.StartandCompleteTest();
+		Sale.Edit_Sale();
+		Sale.Add_Customer_Information();
+		
+	}
+
+}

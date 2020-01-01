@@ -1,0 +1,102 @@
+package Sales;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Action;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Sales {
+	public static void main(String[] args) {
+    	System.setProperty("webdriver.chrome.driver","C:\\chromedriver.exe");
+    	WebDriver driver = new ChromeDriver();
+    	WebDriverWait myWaitVar= new WebDriverWait(driver,10);
+    	driver.manage().window().maximize(); 
+    	String baseUrl = "http://dev.almumayaz.com/login";
+    	driver.get(baseUrl);
+    	WebElement username=driver.findElement(By.id("username"));
+    	WebElement password=driver.findElement(By.id("password"));
+    	WebElement login= driver.findElement(By.xpath("//*[@id=\"loginForm\"]/input"));
+    	username.sendKeys("admin");
+    	password.sendKeys("123456");
+    	login.click();
+    	WebElement salestab= driver.findElement(By.xpath("//*[@id=\"cssmenu\"]/ul/li[5]/a[1]"));
+    //	WebElement allsales=  driver.findElement(By.linkText("All Sales"));
+    	Actions builder = new Actions(driver);
+    	builder.moveToElement(salestab).moveToElement(driver.findElement(By.xpath("//*[@id=\"cssmenu\"]/ul/li[5]/ul/li[1]/a"))).click().build().perform();
+    	//mouseoverSalestab.perform();
+    	WebElement addnewsale=driver.findElement(By.xpath("/html/body/div[3]/div/div[2]/div[2]/div[2]/a"));
+    	addnewsale.click();
+    	WebElement comprehensivetest= driver.findElement(By.xpath("//*[@id=\"1_service_parent\"]/div/p/a[2]"));
+    	comprehensivetest.click();
+    	WebElement viewcart= driver.findElement(By.id("menu1"));
+    	viewcart.click();
+    	WebElement gotocheckout= driver.findElement(By.xpath("/html/body/div[3]/div[1]/div[2]/div[2]/div[2]/div/ul/li[2]/table/tbody/tr/td[2]/a"));
+    	gotocheckout.click();
+   //Customer information form 
+    	WebElement CustomernameArabic= driver.findElement(By.id("member_memberNameArabic"));
+    	WebElement CustomernameEnglish= driver.findElement(By.id("member_memberNameEng"));
+    	WebElement email= driver.findElement(By.id("member_email"));
+    	CustomernameArabic.sendKeys("Raza Nawaz");
+    	CustomernameEnglish.sendKeys("Raza Nawaz");
+    	email.sendKeys("razanawaz8@gmail.com");
+    	
+    	Select Mobilecode= new Select(driver.findElement(By.id("member_mobile_code")));
+    	Mobilecode.selectByIndex(1);
+    	WebElement MobileNumber= driver.findElement(By.id("member_mobile"));
+    	MobileNumber.sendKeys("4234321");
+    	Select gender= new Select(driver.findElement(By.id("member_mobile_gender")));
+    	gender.selectByIndex(1);
+    	WebElement Queue= driver.findElement(By.id("que_number"));
+    	Queue.sendKeys("23345");
+    	
+    //Vehicle information form
+    	Select Platecategory= new Select(driver.findElement(By.id("vehicle_plate_category")));
+    	Platecategory.selectByIndex(4);
+    	Select Emiratescode= new Select(driver.findElement(By.id("emirates_code")));
+    	Emiratescode.selectByIndex(4);
+    	Select Platecode= new Select(driver.findElement(By.id("plate_code")));
+    	Platecode.selectByIndex(3);
+    	WebElement PlateNo= driver.findElement(By.id("plate_no"));
+    	PlateNo.sendKeys("8516");
+    	Select Vehicletype= new Select(driver.findElement(By.id("vehicle_category")));
+    	Vehicletype.selectByIndex(1);
+    	WebElement Chassissno= driver.findElement(By.id("chassis_no"));
+    	Chassissno.sendKeys("3242359981QST");
+    	WebElement Enginenumber= driver.findElement(By.id("engine_number"));
+    	Enginenumber.sendKeys("5574563");
+    	Select Bodytype= new Select(driver.findElement(By.id("vehicle_type")));
+    	Bodytype.selectByIndex(5);
+    //	myWaitVar.until(ExpectedConditions.visibilityOfElementLocated(By.id("vehicle_make")));
+    	Select Vehiclemake= new Select(driver.findElement(By.id("vehicle_make")));
+    	Vehiclemake.selectByIndex(3);
+    //	myWaitVar.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"vehicle_model\"]")));
+   // 	Select Vehiclemodel= new Select(driver.findElement(By.xpath("//*[@id=\"vehicle_model\"]")));
+   // 	Vehiclemodel.selectByIndex(1);
+   // 	Select Color= new Select(driver.findElement(By.id("color")));
+    //	Color.selectByIndex(3);
+    //	Select Year= new Select(driver.findElement(By.id("manufacturer")));
+    //	Year.selectByIndex(29);
+    //	Select Fueltype= new Select(driver.findElement(By.id("fuel_type")));
+    //	Fueltype.selectByIndex(2);
+    //	WebElement Mileage= driver.findElement(By.id("mileage"));
+    //	Mileage.sendKeys("1000");
+    //	WebElement Weight= driver.findElement(By.id("weight"));
+    //	Weight.sendKeys("90");
+    //	Select Laneno= new Select(driver.findElement(By.id("laneNo")));
+    //	Laneno.selectByIndex(2);
+    	
+    	
+  //Press Checkout button
+    	WebElement Checkoutbutton=driver.findElement(By.xpath("//*[@id=\"addForm\"]/table[4]/tbody/tr/td/input[3]"));
+    	Checkoutbutton.click();
+    	
+    	//driver.close();
+      //  System.exit(0);
+    	
+    	
+	}
+}

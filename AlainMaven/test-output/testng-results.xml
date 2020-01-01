@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="5" total="11" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-12-19T12:22:48 PKT" name="Suite" finished-at="2019-12-19T12:23:38 PKT" duration-ms="50200">
+    <groups>
+      <group name="add">
+        <method signature="Groupmethods.Addquicksale()[pri:2, instance:AlainAhlia.Groupmethods@6b19b79]" name="Addquicksale" class="AlainAhlia.Groupmethods"/>
+        <method signature="Groupmethods.CustomerInfo()[pri:4, instance:AlainAhlia.Groupmethods@6b19b79]" name="CustomerInfo" class="AlainAhlia.Groupmethods"/>
+        <method signature="Groupmethods.SelectinsuranceCompany()[pri:3, instance:AlainAhlia.Groupmethods@6b19b79]" name="SelectinsuranceCompany" class="AlainAhlia.Groupmethods"/>
+        <method signature="Groupmethods.login()[pri:1, instance:AlainAhlia.Groupmethods@6b19b79]" name="login" class="AlainAhlia.Groupmethods"/>
+        <method signature="Groupmethods.setupTest()[pri:0, instance:AlainAhlia.Groupmethods@6b19b79]" name="setupTest" class="AlainAhlia.Groupmethods"/>
+      </group> <!-- add -->
+      <group name="verify">
+        <method signature="Groupmethods.Addquicksale()[pri:2, instance:AlainAhlia.Groupmethods@6b19b79]" name="Addquicksale" class="AlainAhlia.Groupmethods"/>
+        <method signature="Groupmethods.CustomerInfo()[pri:4, instance:AlainAhlia.Groupmethods@6b19b79]" name="CustomerInfo" class="AlainAhlia.Groupmethods"/>
+        <method signature="Groupmethods.SelectinsuranceCompany()[pri:3, instance:AlainAhlia.Groupmethods@6b19b79]" name="SelectinsuranceCompany" class="AlainAhlia.Groupmethods"/>
+        <method signature="Groupmethods.checkpolicy()[pri:10, instance:AlainAhlia.Groupmethods@6b19b79]" name="checkpolicy" class="AlainAhlia.Groupmethods"/>
+        <method signature="Groupmethods.login()[pri:1, instance:AlainAhlia.Groupmethods@6b19b79]" name="login" class="AlainAhlia.Groupmethods"/>
+        <method signature="Groupmethods.setupTest()[pri:0, instance:AlainAhlia.Groupmethods@6b19b79]" name="setupTest" class="AlainAhlia.Groupmethods"/>
+      </group> <!-- verify -->
+    </groups>
+    <test started-at="2019-12-19T12:22:48 PKT" name="Test" finished-at="2019-12-19T12:23:38 PKT" duration-ms="50200">
+      <class name="AlainAhlia.Groupmethods">
+        <test-method signature="setupTest()[pri:0, instance:AlainAhlia.Groupmethods@6b19b79]" started-at="2019-12-19T12:22:48 PKT" name="setupTest" finished-at="2019-12-19T12:23:05 PKT" duration-ms="16994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="login()[pri:1, instance:AlainAhlia.Groupmethods@6b19b79]" started-at="2019-12-19T12:23:05 PKT" name="login" finished-at="2019-12-19T12:23:12 PKT" duration-ms="6687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="Addquicksale()[pri:2, instance:AlainAhlia.Groupmethods@6b19b79]" started-at="2019-12-19T12:23:12 PKT" name="Addquicksale" finished-at="2019-12-19T12:23:23 PKT" duration-ms="11367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Addquicksale -->
+        <test-method signature="SelectinsuranceCompany()[pri:3, instance:AlainAhlia.Groupmethods@6b19b79]" started-at="2019-12-19T12:23:23 PKT" name="SelectinsuranceCompany" finished-at="2019-12-19T12:23:26 PKT" duration-ms="2466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectinsuranceCompany -->
+        <test-method signature="CustomerInfo()[pri:4, instance:AlainAhlia.Groupmethods@6b19b79]" started-at="2019-12-19T12:23:26 PKT" name="CustomerInfo" finished-at="2019-12-19T12:23:34 PKT" duration-ms="7988" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerInfo -->
+        <test-method signature="checkpolicy()[pri:10, instance:AlainAhlia.Groupmethods@6b19b79]" started-at="2019-12-19T12:23:34 PKT" name="checkpolicy" finished-at="2019-12-19T12:23:38 PKT" duration-ms="4553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkpolicy -->
+      </class> <!-- AlainAhlia.Groupmethods -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

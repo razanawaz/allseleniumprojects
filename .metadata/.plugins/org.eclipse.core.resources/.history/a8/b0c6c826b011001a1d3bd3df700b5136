@@ -1,0 +1,40 @@
+package Project_methods;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+
+public class All {
+	static WebDriver driver;
+
+	public static void setupTest() {
+    	System.setProperty("webdriver.chrome.driver","C:\\chromedriver.exe");
+        driver = new ChromeDriver();
+        driver.navigate().to("https://dev.schooli.app/login");
+        driver.manage().window().maximize();
+
+}
+	
+	public static void login() {
+    	WebElement username= driver.findElement(By.id("username"));
+        WebElement password= driver.findElement(By.id("password"));
+        WebElement login= driver.findElement(By.xpath("//*[@id=\"root\"]/div/main/main/div/form/button/span[1]"));
+        username.sendKeys("schooli_dev");
+        password.sendKeys("asdf1234");
+        login.click();
+}
+	
+	public static void select_class() throws InterruptedException {
+		Thread.sleep(1000);
+		driver.navigate().to("https://dev.schooli.app/academics/classes");
+		driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
+		WebElement classes= driver.findElement(By.xpath("//*[@id=\"MUIDataTableBodyRow-1\"]/td[10]/button[1]/span[1]"));
+		classes.click();
+	}
+	
+	
+	
+}

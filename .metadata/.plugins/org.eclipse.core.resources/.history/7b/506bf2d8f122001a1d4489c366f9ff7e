@@ -1,0 +1,9 @@
+package AlainAhlia;
+
+import org.testng.annotations.Test;
+
+public class ThirdParty {
+  @Test
+  public void f() {
+  }
+}

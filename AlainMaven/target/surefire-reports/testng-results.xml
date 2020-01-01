@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="21" passed="18" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-12-20T11:29:21 PKT" name="Suite" finished-at="2019-12-20T11:30:42 PKT" duration-ms="81028">
+    <groups>
+      <group name="add">
+        <method signature="Groupmethods.Addquicksale()[pri:2, instance:AlainAhlia.Groupmethods@5d11346a]" name="Addquicksale" class="AlainAhlia.Groupmethods"/>
+        <method signature="Groupmethods.CustomerInfo()[pri:4, instance:AlainAhlia.Groupmethods@5d11346a]" name="CustomerInfo" class="AlainAhlia.Groupmethods"/>
+        <method signature="Groupmethods.PremiumDetail()[pri:6, instance:AlainAhlia.Groupmethods@5d11346a]" name="PremiumDetail" class="AlainAhlia.Groupmethods"/>
+        <method signature="Groupmethods.SelectinsuranceCompany()[pri:3, instance:AlainAhlia.Groupmethods@5d11346a]" name="SelectinsuranceCompany" class="AlainAhlia.Groupmethods"/>
+        <method signature="Groupmethods.Vehicleinfo()[pri:5, instance:AlainAhlia.Groupmethods@5d11346a]" name="Vehicleinfo" class="AlainAhlia.Groupmethods"/>
+        <method signature="Groupmethods.buypolicy()[pri:9, instance:AlainAhlia.Groupmethods@5d11346a]" name="buypolicy" class="AlainAhlia.Groupmethods"/>
+        <method signature="Groupmethods.login()[pri:1, instance:AlainAhlia.Groupmethods@5d11346a]" name="login" class="AlainAhlia.Groupmethods"/>
+        <method signature="Groupmethods.setupTest()[pri:0, instance:AlainAhlia.Groupmethods@5d11346a]" name="setupTest" class="AlainAhlia.Groupmethods"/>
+        <method signature="Groupmethods.uploadfile()[pri:7, instance:AlainAhlia.Groupmethods@5d11346a]" name="uploadfile" class="AlainAhlia.Groupmethods"/>
+        <method signature="Groupmethods.verification()[pri:8, instance:AlainAhlia.Groupmethods@5d11346a]" name="verification" class="AlainAhlia.Groupmethods"/>
+        <method signature="ThirdParty.Addquicksale()[pri:2, instance:AlainAhlia.ThirdParty@7a36aefa]" name="Addquicksale" class="AlainAhlia.ThirdParty"/>
+        <method signature="ThirdParty.CustomerInfo()[pri:4, instance:AlainAhlia.ThirdParty@7a36aefa]" name="CustomerInfo" class="AlainAhlia.ThirdParty"/>
+        <method signature="ThirdParty.PremiumDetail()[pri:6, instance:AlainAhlia.ThirdParty@7a36aefa]" name="PremiumDetail" class="AlainAhlia.ThirdParty"/>
+        <method signature="ThirdParty.SelectinsuranceCompany()[pri:3, instance:AlainAhlia.ThirdParty@7a36aefa]" name="SelectinsuranceCompany" class="AlainAhlia.ThirdParty"/>
+        <method signature="ThirdParty.Vehicleinfo()[pri:5, instance:AlainAhlia.ThirdParty@7a36aefa]" name="Vehicleinfo" class="AlainAhlia.ThirdParty"/>
+        <method signature="ThirdParty.buypolicy()[pri:9, instance:AlainAhlia.ThirdParty@7a36aefa]" name="buypolicy" class="AlainAhlia.ThirdParty"/>
+        <method signature="ThirdParty.login()[pri:1, instance:AlainAhlia.ThirdParty@7a36aefa]" name="login" class="AlainAhlia.ThirdParty"/>
+        <method signature="ThirdParty.setupTest()[pri:0, instance:AlainAhlia.ThirdParty@7a36aefa]" name="setupTest" class="AlainAhlia.ThirdParty"/>
+        <method signature="ThirdParty.uploadfile()[pri:7, instance:AlainAhlia.ThirdParty@7a36aefa]" name="uploadfile" class="AlainAhlia.ThirdParty"/>
+        <method signature="ThirdParty.verification()[pri:8, instance:AlainAhlia.ThirdParty@7a36aefa]" name="verification" class="AlainAhlia.ThirdParty"/>
+      </group> <!-- add -->
+      <group name="verify">
+        <method signature="Groupmethods.Addquicksale()[pri:2, instance:AlainAhlia.Groupmethods@5d11346a]" name="Addquicksale" class="AlainAhlia.Groupmethods"/>
+        <method signature="Groupmethods.CustomerInfo()[pri:4, instance:AlainAhlia.Groupmethods@5d11346a]" name="CustomerInfo" class="AlainAhlia.Groupmethods"/>
+        <method signature="Groupmethods.SelectinsuranceCompany()[pri:3, instance:AlainAhlia.Groupmethods@5d11346a]" name="SelectinsuranceCompany" class="AlainAhlia.Groupmethods"/>
+        <method signature="Groupmethods.login()[pri:1, instance:AlainAhlia.Groupmethods@5d11346a]" name="login" class="AlainAhlia.Groupmethods"/>
+        <method signature="Groupmethods.setupTest()[pri:0, instance:AlainAhlia.Groupmethods@5d11346a]" name="setupTest" class="AlainAhlia.Groupmethods"/>
+      </group> <!-- verify -->
+    </groups>
+    <test started-at="2019-12-20T11:29:21 PKT" name="Test" finished-at="2019-12-20T11:30:42 PKT" duration-ms="81028">
+      <class name="AlainAhlia.Groupmethods">
+        <test-method signature="setupTest()[pri:0, instance:AlainAhlia.Groupmethods@5d11346a]" started-at="2019-12-20T11:29:21 PKT" name="setupTest" finished-at="2019-12-20T11:29:38 PKT" duration-ms="17447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="login()[pri:1, instance:AlainAhlia.Groupmethods@5d11346a]" started-at="2019-12-20T11:29:38 PKT" name="login" finished-at="2019-12-20T11:29:45 PKT" duration-ms="7195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="Addquicksale()[pri:2, instance:AlainAhlia.Groupmethods@5d11346a]" started-at="2019-12-20T11:29:45 PKT" name="Addquicksale" finished-at="2019-12-20T11:30:07 PKT" duration-ms="21249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Addquicksale -->
+        <test-method signature="SelectinsuranceCompany()[pri:3, instance:AlainAhlia.Groupmethods@5d11346a]" started-at="2019-12-20T11:30:07 PKT" name="SelectinsuranceCompany" finished-at="2019-12-20T11:30:09 PKT" duration-ms="2449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectinsuranceCompany -->
+        <test-method signature="CustomerInfo()[pri:4, instance:AlainAhlia.Groupmethods@5d11346a]" started-at="2019-12-20T11:30:09 PKT" name="CustomerInfo" finished-at="2019-12-20T11:30:20 PKT" duration-ms="10926" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerInfo -->
+        <test-method signature="Vehicleinfo()[pri:5, instance:AlainAhlia.Groupmethods@5d11346a]" started-at="2019-12-20T11:30:20 PKT" name="Vehicleinfo" finished-at="2019-12-20T11:30:30 PKT" duration-ms="9823" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Vehicleinfo -->
+        <test-method signature="PremiumDetail()[pri:6, instance:AlainAhlia.Groupmethods@5d11346a]" started-at="2019-12-20T11:30:30 PKT" name="PremiumDetail" finished-at="2019-12-20T11:30:36 PKT" duration-ms="6483" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=78.0.3904.108)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-27PLT8U', ip: '192.168.88.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\Jansher\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55063}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9aa065a1390aa30c640f9f1691d8b515]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=78.0.3904.108)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-27PLT8U', ip: '192.168.88.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\Jansher\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55063}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9aa065a1390aa30c640f9f1691d8b515
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at AlainAhlia.Groupmethods.PremiumDetail(Groupmethods.java:203)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:835)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PremiumDetail -->
+        <test-method signature="uploadfile()[pri:7, instance:AlainAhlia.Groupmethods@5d11346a]" started-at="2019-12-20T11:30:36 PKT" name="uploadfile" finished-at="2019-12-20T11:30:36 PKT" duration-ms="53" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uploadfile -->
+        <test-method signature="verification()[pri:8, instance:AlainAhlia.Groupmethods@5d11346a]" started-at="2019-12-20T11:30:36 PKT" name="verification" finished-at="2019-12-20T11:30:36 PKT" duration-ms="206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verification -->
+        <test-method signature="buypolicy()[pri:9, instance:AlainAhlia.Groupmethods@5d11346a]" started-at="2019-12-20T11:30:36 PKT" name="buypolicy" finished-at="2019-12-20T11:30:42 PKT" duration-ms="5119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buypolicy -->
+      </class> <!-- AlainAhlia.Groupmethods -->
+      <class name="AlainAhlia.ThirdParty">
+        <test-method signature="setupTest()[pri:0, instance:AlainAhlia.ThirdParty@7a36aefa]" started-at="2019-12-20T11:29:21 PKT" name="setupTest" finished-at="2019-12-20T11:29:38 PKT" duration-ms="17544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="login()[pri:1, instance:AlainAhlia.ThirdParty@7a36aefa]" started-at="2019-12-20T11:29:38 PKT" name="login" finished-at="2019-12-20T11:29:45 PKT" duration-ms="6835" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="Addquicksale()[pri:2, instance:AlainAhlia.ThirdParty@7a36aefa]" started-at="2019-12-20T11:29:45 PKT" name="Addquicksale" finished-at="2019-12-20T11:30:08 PKT" duration-ms="22880" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Addquicksale -->
+        <test-method signature="SelectinsuranceCompany()[pri:3, instance:AlainAhlia.ThirdParty@7a36aefa]" started-at="2019-12-20T11:30:08 PKT" name="SelectinsuranceCompany" finished-at="2019-12-20T11:30:10 PKT" duration-ms="2355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectinsuranceCompany -->
+        <test-method signature="CustomerInfo()[pri:4, instance:AlainAhlia.ThirdParty@7a36aefa]" started-at="2019-12-20T11:30:10 PKT" name="CustomerInfo" finished-at="2019-12-20T11:30:20 PKT" duration-ms="9515" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerInfo -->
+        <test-method signature="Vehicleinfo()[pri:5, instance:AlainAhlia.ThirdParty@7a36aefa]" started-at="2019-12-20T11:30:20 PKT" name="Vehicleinfo" finished-at="2019-12-20T11:30:28 PKT" duration-ms="8661" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Vehicleinfo -->
+        <test-method signature="PremiumDetail()[pri:6, instance:AlainAhlia.ThirdParty@7a36aefa]" started-at="2019-12-20T11:30:28 PKT" name="PremiumDetail" finished-at="2019-12-20T11:30:35 PKT" duration-ms="6718" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=78.0.3904.108)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-27PLT8U', ip: '192.168.88.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\Jansher\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55062}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5adb725d58963db392e158077df4087a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=78.0.3904.108)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-27PLT8U', ip: '192.168.88.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\Jansher\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55062}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5adb725d58963db392e158077df4087a
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at AlainAhlia.ThirdParty.PremiumDetail(ThirdParty.java:188)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:835)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PremiumDetail -->
+        <test-method signature="uploadfile()[pri:7, instance:AlainAhlia.ThirdParty@7a36aefa]" started-at="2019-12-20T11:30:35 PKT" name="uploadfile" finished-at="2019-12-20T11:30:35 PKT" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uploadfile -->
+        <test-method signature="verification()[pri:8, instance:AlainAhlia.ThirdParty@7a36aefa]" started-at="2019-12-20T11:30:35 PKT" name="verification" finished-at="2019-12-20T11:30:36 PKT" duration-ms="208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verification -->
+        <test-method signature="buypolicy()[pri:9, instance:AlainAhlia.ThirdParty@7a36aefa]" started-at="2019-12-20T11:30:36 PKT" name="buypolicy" finished-at="2019-12-20T11:30:40 PKT" duration-ms="4096" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buypolicy -->
+      </class> <!-- AlainAhlia.ThirdParty -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
